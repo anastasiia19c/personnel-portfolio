@@ -1,10 +1,10 @@
 <template>
     <header class="banner">
       <div class="container">
-        <h1> ! EN RECHERCHE DE STAGE EN DEVELOPPEMENT WEB !</h1>
+        <h1>! A LA RECHERCHE D'UN STAGE EN DEVELOPPEMENT WEB !</h1>
       </div>
     </header>
-</template>
+  </template>
   
   <script>
   export default {
@@ -26,22 +26,35 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 5px;
-  }
-  
-  .container {
-    display: flex;        
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
   
   h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;  
     margin: 0;
     font-weight: bold;
     text-align: center;
+    line-height: 1.2;  
   }
   
-</style>
+  @media (max-width: 768px) {
+    .banner {
+      height: auto;      
+      padding: 10px 0;   
+    }
+  
+    h1 {
+      font-size: 1rem;   
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner {
+      padding: 3px 0;  
+    }
+  
+    h1 {
+      font-size: 0.7rem;  
+    }
+  }
+  </style>
   
