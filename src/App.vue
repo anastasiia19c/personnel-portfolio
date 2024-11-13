@@ -1,5 +1,7 @@
 <template>
   <div :class="appTheme" class="pt-0.5">
+    <!-- App Banner -->
+    <Banner />
     <!-- App header -->
     <AppHeader />
 
@@ -32,12 +34,14 @@
   import feather from "feather-icons";
   import AppHeader from "./components/shared/AppHeader";
   import AppFooter from "./components/shared/AppFooter";
+  import Banner from "./components/shared/Banner"; // Importez votre nouveau composant
 
   export default {
     name: "App",
     components: {
       AppHeader,
       AppFooter,
+      Banner, // Ajoutez le composant ici
     },
     data: () => {
       return {

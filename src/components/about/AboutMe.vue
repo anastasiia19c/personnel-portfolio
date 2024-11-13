@@ -1,13 +1,13 @@
 <template>
-  <div class="flex items-center justify-center py-4">
-    <div class="w-1/3">
+  <div class="flex flex-col md:flex-row items-center justify-center py-4">
+    <div class="w-full md:w-1/3">
       <img src="@/assets/images/iconTravail.png" alt="Icon Travail" class="w-full h-auto" />
     </div>
     
-    <div class="w-2/3 text-left px-5">
+    <div class="w-full md:w-2/3 text-left px-4 md:px-5">
       <p class="text-xl text-primary-dark font-general-medium dark:text-primary-light 
       mt-2 max-w-3xl mx-auto rounded-lg bg-primary-light dark:bg-primary-dark shadow-lg px-6 py-4" style="text-align: justify;">
-        Hello! Je m'appelle Anastasiia et je suis une développeuse web full-stack. Actuellement, je suis étudiante en licence professionnelle 
+        Hello ! Je m'appelle Anastasiia et je suis une développeuse web full-stack. Actuellement, je suis étudiante en licence professionnelle 
         en développement logiciel à l'Université de Haute-Alsace à Mulhouse. Je suis en deuxième année dans <a :href="uhaLink" target="_blank" class="px-1 rounded underline">la formation UHA 4.0</a>.
         N'hésitez pas à jeter un œil sur ma formation. 
         <br>
