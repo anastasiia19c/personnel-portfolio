@@ -88,10 +88,10 @@
     <div class="w-full md:w-1/2 text-right float-right">
       <img
         v-if="theme === 'light'"
-        src="@/assets/images/avatar.png"
+        src="@/assets/images/avatar2.png"
         alt="Developer"
       />
-      <img v-else src="@/assets/images/avatar.png" alt="Developer" />
+      <img v-else src="@/assets/images/avatar2.png" alt="Developer" />
     </div>
   </section>
 </template>
