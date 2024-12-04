@@ -3,8 +3,8 @@
     <!-- Banner -->
     <AppBanner class="mb-5 sm:mb-8" />
 
-    <!-- Projects -->
-    <ProjectsGrid />
+    <!-- 3 last Projects -->
+    <ProjectsGridHome />
 
     <!-- Load more projects button -->
     <div class="mt-10 sm:mt-20 flex justify-center">
@@ -40,14 +40,14 @@
 
 <script>
   import AppBanner from "@/components/shared/AppBanner";
-  import ProjectsGrid from "../components/projects/ProjectsGrid.vue";
   import Button from "../components/reusable/Button.vue";
+  import ProjectsGridHome from "../components/projects/ProjectsGridHome.vue";
 
   export default {
     name: "Home",
     components: {
       AppBanner,
-      ProjectsGrid,
+      ProjectsGridHome,
       Button,
     },
   };

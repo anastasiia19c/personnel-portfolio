@@ -3,15 +3,23 @@
 const projectDetails = [
   {
     id: 0,
+    language: ["TypeScritp", "Golang"],
+    tech: ["Adminer", "React Native", "Echo", "Docker","API", "Confluence", "Jira", "GitLab", "Postman", "Méthode Agile" ],
+    description: `Le projet d’entreprise en groupe a pour objectif de mettre en relation des propriétaires, des cavaliers et des coachs pour la garde partagée des chevaux.
+    Le projet consiste à développer une application dédiée à la gestion de la garde partagée des chevaux, intégrée à Cavalons, une marketplace spécialisée dans la demi-pension de chevaux.
+    L'application inclura la création d’un calendrier partagé, la gestion des rôles, des commentaires et du budget.`,
+  },
+  {
+    id: 1,
     language: ["Vue", "Javascript", "HTML", "CSS"],
     tech: ["Vue.js", "Tailwind CSS"],
     src: "",
-    description: `Ce portfolio est une application monopage (Single Page Application) et présente un design adaptatif. 
+    description: `Ce portfolio présente un design adaptatif. 
     Je l’ai développé avec Vue.js et utilisé Vue-Router pour gérer les transitions entre les différentes vues. 
     J’ai également utilisé Tailwind CSS pour embellir la page web et permettre le basculement entre les modes clair et sombre.`,
   },
   {
-    id: 1,
+    id: 2,
     language: ["Java", "SQL"],
     tech: ["Spring Boot", "MyPhpAdmin", "Angular", "API", "JUnit", "Jira", "Postman", "Confluence", "GitLab"],
     description: `Projet en autonomie. L’objectif est la réalisation d’une application web mobilisant une API  
@@ -22,7 +30,7 @@ const projectDetails = [
     (aire totale, périmètre total, etc…). `,
   },
   {
-    id: 2,
+    id: 3,
     language: ["Typescript", "SQL", "HTML", "CSS"],
     tech: ["Angular, NodeJS", "Docker", "Confluence", "Jira", "GitLab"],
     description: `Projet stage simulé en groupe. 
@@ -30,7 +38,7 @@ const projectDetails = [
     travail avec le formulaire d’inscription, l'envoi d'email`,
   },
   {
-    id: 3,
+    id: 4,
     language: ["Vue", "Python", "CSS"],
     tech: ["Vue.js", "Django", "Tailwind CSS", "Confluence", "Jira", "GitLab" ],
     description: `Projet d’entreprise en groupe. Développement d’une application web pour la gestion de la prospection commerciale, 
@@ -38,7 +46,7 @@ const projectDetails = [
     Création d’un kan-ban avec drag&drop.`,
   },
   {
-    id: 4,
+    id: 5,
     language: ["Typescript", "SQL", "PHP" ],
     tech: ["Angular", "PhpMyAdmin", "Laravel","Confluence", "Jira", "GitLab"],
     description: `Le projet d’entreprise en groupe a pour objectif la réalisation d’un site web présentant un questionnaire d’auto-évaluation. 
@@ -47,9 +55,9 @@ const projectDetails = [
     L'envoi d'un e-mail après la soumission du questionnaire et la création de la page administrateur.`,
   },
   {
-    id: 5,
-    language: ["HTML5", "CSS","PHP", "SQL","Javascript", "API", "Confluence", "Jira", "GitLab" ],
-    tech: ["PhpMyAdmin"],
+    id: 6,
+    language: ["HTML5", "CSS","PHP", "SQL","Javascript"],
+    tech: ["PhpMyAdmin",  "API", "Confluence", "Jira", "GitLab"],
     description: `Le projet en autonomie. L’objectif est donc la réalisation d’un site web qui présente un ensemble de données. 
     Les données à présenter sont définies, par deux API web qui présentent des données liées : 
     une api d’items liée à une API de catégories. Ce site devra être très facilement déployable sur un serveur apache grâce à un script PHP.`,

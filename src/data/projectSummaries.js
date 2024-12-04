@@ -3,6 +3,15 @@
 const projectSummaries = [
   {
     id: 0,
+    title: "Cavalons",
+    category: "Full-stack",
+    date: "Novembre 2024 - Décembre 2024",
+    displayImg: require("@/assets/images/projet7-1.png"),
+    galleryImg: [
+    ],
+  },
+  {
+    id: 1,
     title: "Portfolio",
     category: "Front-end",
     date: "Octobre 2024",
@@ -12,10 +21,10 @@ const projectSummaries = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Fil Rouge 4.0.2",
     category: "Full-stack",
-    date: "Septembre 2024 - En cours",
+    date: "Septembre 2024 - Novembre 2024",
     displayImg: require("@/assets/images/projet1-4.png"),
     galleryImg: [
       require("@/assets/images/projet1-1.png"),
@@ -24,7 +33,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Objectif-Admission",
     category: "Full-stack",
     date: "Avril 2024 - Juin 2024",
@@ -36,14 +45,14 @@ const projectSummaries = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "NetiOne",
     category: "Full-stack",
     date: "Janvier 2024 - Février 2024",
     displayImg: require("@/assets/images/projet3-2.jpg")
   },
   {
-    id: 4,
+    id: 5,
     title: "New Skills",
     category: "Full-stack",
     date: "Novembre 2023 - Décembre 2023",
@@ -55,7 +64,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Fil Rouge 4.0.1",
     category: "Full-stack",
     date: "Octobre 2023 - Novembre 2023",
