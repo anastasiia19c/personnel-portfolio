@@ -1,7 +1,6 @@
 <template>
   <div :class="appTheme" class="pt-0.5">
     <!-- App Banner -->
-    <Banner />
     <!-- App header -->
     <AppHeader />
 
