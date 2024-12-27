@@ -14,7 +14,7 @@
           dark:text-primary-light
         "
       >
-        Projects
+        Projets
       </p>
     </div>
 

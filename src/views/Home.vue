@@ -32,7 +32,7 @@
         "
         aria-label="More Projects"
       >
-        <Button title="More Projects" />
+        <Button title="Plus de projets" />
       </router-link>
     </div>
   </div>

@@ -35,7 +35,7 @@
         sm:py-2
       "
       aria-label="Home"
-      >Home</router-link
+      >Accueil</router-link
     >
     <router-link
       to="/projects"
@@ -58,7 +58,7 @@
         dark:border-secondary-dark
       "
       aria-label="Projects"
-      >Projects</router-link
+      >Projets</router-link
     >
     <router-link
       to="/about"
@@ -81,7 +81,7 @@
         dark:border-secondary-dark
       "
       aria-label="About Me"
-      >About Me</router-link
+      >À Propos</router-link
     >
     <router-link
       to="/contact"

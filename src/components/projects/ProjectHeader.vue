@@ -51,6 +51,25 @@
           "
           >{{ projectSummary.category }}</span
         >
+        <i
+          data-feather="github"
+          class="ml-6 w-4 h-4 text-ternary-dark dark:text-ternary-light"
+        ></i>
+        <a
+          :href="projectSummary.link"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="
+            font-general-medium
+            ml-2
+            leading-none
+            text-primary-dark
+            dark:text-primary-light
+            underline
+          "
+        >
+          Voir le code
+        </a>
       </div>
     </div>
   </div>

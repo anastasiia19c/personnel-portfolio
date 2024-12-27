@@ -23,7 +23,7 @@
       <img
         :src="project.displayImg"
         :alt="project.title"
-        class="rounded-t-xl border-none"
+        class="rounded-t-xl border-none w-full h-auto object-cover sm:h-48 md:h-64 lg:h-72"
       />
     </div>
     <!-- Project's title and category -->

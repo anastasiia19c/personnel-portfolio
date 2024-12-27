@@ -8,6 +8,8 @@ const projectSummaries = [
     date: "Novembre 2024 - Décembre 2024",
     displayImg: require("@/assets/images/projet7-1.png"),
     galleryImg: [
+      require("@/assets/images/projet7-2.png"),
+      require("@/assets/images/projet7-4.png"),
     ],
   },
   {
@@ -15,6 +17,7 @@ const projectSummaries = [
     title: "Portfolio",
     category: "Front-end",
     date: "Octobre 2024",
+    link: "https://github.com/anastasiia19c/personnel-portfolio",
     displayImg: require("@/assets/images/projet6-2.png"),
     galleryImg: [
       require("@/assets/images/projet6-1.png"),
@@ -25,6 +28,7 @@ const projectSummaries = [
     title: "Fil Rouge 4.0.2",
     category: "Full-stack",
     date: "Septembre 2024 - Novembre 2024",
+    link: "https://github.com/anastasiia19c/fil-Rouge2",
     displayImg: require("@/assets/images/projet1-4.png"),
     galleryImg: [
       require("@/assets/images/projet1-1.png"),
