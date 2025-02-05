@@ -3,6 +3,20 @@
 const projectSummaries = [
   {
     id: 0,
+    title: "Hakaton 2024",
+    category: "Full-stack",
+    isSolo: false,
+    isTeam: true,
+    link: "https://github.com/anastasiia19c/hakaton2024",
+    date: "9h-16h 20 Décembre 2024",
+    displayImg: require("@/assets/images/projet8-1.png"),
+    galleryImg: [
+      require("@/assets/images/projet8-2.png"),
+      require("@/assets/images/projet8-3.png"),
+    ],
+  },
+  {
+    id: 1,
     title: "Cavalons",
     category: "Full-stack",
     isSolo: false,
@@ -15,7 +29,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: "Portfolio",
     category: "Front-end",
     date: "Octobre 2024",
@@ -28,7 +42,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Fil Rouge 4.0.2",
     category: "Full-stack",
     isSolo: true,
@@ -43,7 +57,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Objectif-Admission",
     category: "Full-stack",
     isSolo: false,
@@ -57,7 +71,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "NetiOne",
     category: "Full-stack",
     isSolo: false,
@@ -66,7 +80,7 @@ const projectSummaries = [
     displayImg: require("@/assets/images/projet3-2.jpg")
   },
   {
-    id: 5,
+    id: 6,
     title: "New Skills",
     category: "Full-stack",
     isSolo: false,
@@ -80,7 +94,7 @@ const projectSummaries = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Fil Rouge 4.0.1",
     category: "Full-stack",
     isSolo: true,

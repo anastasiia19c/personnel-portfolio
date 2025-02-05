@@ -30,11 +30,6 @@
             name: "atatkova04@gmail.com",
             icon: "mail",
           },
-          {
-            id: 2,
-            name: "+33 7 49 02 52 43",
-            icon: "phone",
-          },
         ],
       };
     },

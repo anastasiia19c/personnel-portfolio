@@ -12,7 +12,7 @@
         N'hésitez pas à jeter un œil sur ma formation. 
         <br>
 
-        J'ai commencé mon parcours dans le développement web il y a 2 années, lorsque je me suis intéressée à la création de sites web. 
+        J'ai commencé mon parcours dans le développement web depuis 2022, lorsque je me suis intéressée à la création de sites web. 
         Depuis, j'ai acquis une maîtrise de diverses technologies et je suis devenue passionnée par la création de solutions efficaces et 
         fonctionnelles pour les utilisateurs. Aujourd'hui, ce n'est plus simplement une question d'esthétique, je commence à analyser les 
         sites et applications de manière plus globale, comme si je les scannais du regard.
@@ -141,6 +141,8 @@ export default {
         { id: 11, name: 'Angular', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png' },
         { id: 12, name: 'SpringBoot', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/640px-Spring_Boot.svg.png' },
         { id: 15, name: 'MySQL', imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png'},
+        { id: 16, name: 'Symfony', imageUrl: 'https://static-00.iconduck.com/assets.00/symfony-icon-512x512-94lugehx.png'},
+        { id: 17, name: 'React Native', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png'},
       ],
       application: [
         { id: 1, name: 'GitLab', imageUrl: 'https://cdn.worldvectorlogo.com/logos/gitlab-3.svg'},    
